@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Analysis Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center; /* Center the content */
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            font-weight: bold; /* Make the text bold */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="formulas.html">Formulas Explanation</a></li>
+            <li><a href="analysis.html">Dataset Analysis</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to Excel Analysis Website</h1>
+    </header>
+    <main>
+        <p>This website provides information about Excel formulas and analysis of datasets.</p>
+        <p>Click on the links above to explore more.</p>
+    <img src="data:image/png;base64,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"
+</body>
+</html>
